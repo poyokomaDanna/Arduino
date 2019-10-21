@@ -109,7 +109,7 @@ params getParams(uint8_t speed)
 
 //指定のモーターの動きを変更
 void changeSpeedParam(uint8_t port, params param) {
-  analogWrite(MOTOR_PINS[port][2], param.speed);
+  analogWrite(MOTOR_PINS[port][2], param.speed * 255 / 100);
   digitalWrite(MOTOR_PINS[port][0], param.in1);
   digitalWrite(MOTOR_PINS[port][1], param.in2);
 }
