@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For Wire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+start	KEYWORD2
+stop	KEYWORD2
+brake	KEYWORD2
+mtr1_start	KEYWORD2
+mtr1_stop	KEYWORD2
+mtr1_brake	KEYWORD2
+mtr2_start	KEYWORD2
+mtr2_stop	KEYWORD2
+mtr2_brake	KEYWORD2
+mtr3_start	KEYWORD2
+mtr3_stop	KEYWORD2
+mtr3_brake	KEYWORD2
+mtr4_start	KEYWORD2
+mtr4_stop	KEYWORD2
+mtr4_brake	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+Motor	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
