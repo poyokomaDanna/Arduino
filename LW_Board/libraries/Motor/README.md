@@ -20,6 +20,6 @@ motor.stop();
 |start(mtr1,mtr2,mtr3,mtr4)|モーター４個同時回転|0:停止<br>1～255:正転<br>-1～-255:逆転<br>その他:ブレーキ|
 |stop()|モーター４個同時停止||
 |brake()|モーター４個同時ブレーキ||
-|mtr<i>X</i>_start|指定のモーター回転|設定値はstartと同じ<br><i>X</i>は1～4まで、以下同様|
-|mtr<i>X</i>_stop|指定のモーター停止||
-|mtr<i>X</i>_brake|指定のモーターブレーキ||
+|mtr<i>X</i>_start(mtr)|指定のモーター回転|設定値はstartと同じ<br><i>X</i>は1～4まで、以下同様|
+|mtr<i>X</i>_stop()|指定のモーター停止||
+|mtr<i>X</i>_brake()|指定のモーターブレーキ||
